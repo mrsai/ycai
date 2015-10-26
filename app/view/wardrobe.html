@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>衣彩</title>
+    <link rel="stylesheet" href="../static/uikit-2.22.0/css/uikit.min.css" type="text/css">
+    <link rel="stylesheet" href="../static/css/common.css" type="text/css">
+    <script src="../static/js/jquery.min.js" type="text/javascript"></script>
+    <script src="../static/uikit-2.22.0/js/uikit.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="mr-container">
+        <div class="uk-clearfix uk-margin-remove">
+            <div class="mr-width-right uk-margin-large-top">
+                <div class="uk-width-1-1">
+                    <div class="uk-button-group">
+                        <button class="uk-button uk-button-danger"><a href="#" class="uk-text-white">首页</a></button>
+                        <div data-uk-dropdown="{mode:'click'}" aria-haspopup="true" aria-expanded="false">
+                            <button class="uk-button uk-button-danger"><i class="uk-icon-caret-down"></i></button>
+                            <div class="uk-dropdown">
+                                <ul class="uk-nav uk-nav-dropdown">
+                                    <li><a href="#">衣服</a></li>
+                                    <li><a href="#">搭配</a></li>
+                                    <li><a href="#">衣柜</a></li>
+                                    <li><a href="#">成员</a></li>
+                                    <li><a href="#">展示</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="uk-button uk-active" href=""><i class="ui-icon-closesh"></i>衣服</a>
+                    <a class="uk-button" href="">私人衣柜</a>
+                    <a class="uk-button" href="">搭配</a>
+                    <a class="uk-button" href="">个人信息</a>
+                    <a href="#" class="uk-text-danger uk-float-right mr-upbtn"><i class="uk-icon-plus"></i> 上传一件衣服</a>
+                </div>
+                <div class="uk-margin uk-clearfix">
+                    <hr class="uk-margin-bottom-remove">
+                    <div class="uk-clearfix">
+                        <h3 class="uk-text-danger uk-margin-large-top"><i class="uk-icon-map-o"></i> 随心所欲的创建您的衣柜</h3>
+                        <p>为了和您一起管理自己的衣物，我们创建了一个新的虚拟衣柜来和您的实物衣柜对应，请尽可能的保证它们的结构一致，以便您可以快速定位找到藏在深处的衣物。</p>
+                        <ul class="mr-wardrobe-list">
+                            <li class="mr-position-relative mr-wardrobe-item">
+                                <div class="mr-position-absolute mr-wardrobe-box">
+                                    <table class="gridtable b-H1">
+                                        <tr>
+                                            <td class="b_H1_1"></td>
+                                        </tr>
+                                    </table>
+                                    <table class="gridtable b_V2">
+                                        <tr>
+                                            <td class="b_V2_1"></td>
+                                            <td class="b_V2_2"></td>
+                                        </tr>
+                                    </table>
+                                    <table class="gridtable b_H3">
+                                        <tr>
+                                            <td class="b_H3_1"></td>
+                                            <td class="b_H3_2"></td>
+                                            <td class="b_H3_3"></td>
+                                        </tr>
+                                    </table>
+                                    <table class="gridtable b_H3">
+                                        <tr>
+                                            <td class="b_H3_1"></td>
+                                            <td class="b_H3_2"></td>
+                                            <td class="b_H3_3"></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="mr-wardrobe-type uk-text-center">
+                                    (A)
+                                </div>
+                            </li>
+                            <li class="mr-position-relative mr-wardrobe-item">
+                                <div class="mr-position-absolute mr-wardrobe-box">
+                                    <table class="gridtable b-H1">
+                                        <tr>
+                                            <td class="b_H1_1"></td>
+                                        </tr>
+                                    </table>
+                                    <table class="gridtable b_V2">
+                                        <tr>
+                                            <td class="b_V2_1"></td>
+                                            <td class="b_V2_2"></td>
+                                        </tr>
+                                    </table>
+                                    <table class="gridtable b_H3">
+                                        <tr>
+                                            <td class="b_H3_1"></td>
+                                            <td class="b_H3_2"></td>
+                                            <td class="b_H3_3"></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="mr-wardrobe-type uk-text-center">
+                                    (B)
+                                </div>
+                            </li>
+                            <li class="mr-position-relative mr-wardrobe-item mr-wardrobe-add">
+                                <h3 class="mr-text-middle mr-create-wardrobe"><i class="uk-icon-plus-circle"></i> 创建一个新衣柜？</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mr-create-box">
+        <div class="uk-position-absolute mr-closed-wardrobe"><i class="uk-icon-times-circle"></i></div>
+        <div class="mr-wraper">
+            <div class="mr-grid-1000">
+                <div class="width-1-3  mr-wardrobe-crete-box">
+                    <h3><i class="uk-icon-puzzle-piece"></i> 正在创建一个新衣柜</h3>
+                    <div class="mr-position-relative mr-wardrobe-crete-box">
+                        <div class="mr-position-absolute mr-wardrobe-box mr-clear-position">
+                            
+                            <div class="mr-tips uk-text-center uk-text-danger"><p class="mr-msg">点击右面的元素，自动添加格子哟 ^_^</p></div>
+                        </div>
+                        <div class="uk-margin-large">
+                            <div class="uk-button mr-reset">重置衣柜</div> <div class="uk-button uk-button-danger">提交生成衣柜</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-1-3">
+                    <h3>格子间</h3>
+                    <div class="mr-grid">
+                        <div class="mr-float-left mr-addbox-handler" data-lib="b_H1"><i class="uk-icon-plus"></i> 添加</div>
+                        <div class="mr-float-left">
+                            <table class="gridtable sb sb_H1">
+                                <tr>
+                                    <td class="sb_H1_1"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="mr-grid">
+                        <div class="mr-float-left mr-addbox-handler" data-lib="b_H2"><i class="uk-icon-plus"></i> 添加</div>
+                        <div class="mr-float-left">
+                            <table class="gridtable sb sb_H2">
+                                <tr>
+                                    <td class="sb_H2_1"></td>
+                                    <td class="sb_H2_2"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="mr-grid">
+                        <div class="mr-float-left mr-addbox-handler" data-lib="b_H3"><i class="uk-icon-plus"></i> 添加</div>
+                        <div class="mr-float-left">
+                            <table class="gridtable sb sb_H3">
+                                <tr>
+                                    <td class="sb_H3_1"></td>
+                                    <td class="sb_H3_2"></td>
+                                    <td class="sb_H3_3"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="mr-grid">
+                        <div class="mr-float-left mr-addbox-handler" data-lib="b_H4"><i class="uk-icon-plus"></i> 添加</div>
+                        <div class="mr-float-left">
+                            <table class="gridtable sb sb_H4">
+                                <tr>
+                                    <td class="sb_H4_1"></td>
+                                    <td class="sb_H4_2"></td>
+                                    <td class="sb_H4_3"></td>
+                                    <td class="sb_H4_4"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-1-3">
+                    <h3>挂衣间</h3>
+                    <div class="mr-grid">
+                        <div class="mr-float-left mr-addbox-handler" data-lib="b_V1"><i class="uk-icon-plus"></i> 添加</div>
+                        <div class="mr-float-left">
+                            <table class="gridtable sb sb-V1">
+                                <tr>
+                                    <td class="sb_V1_1"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="mr-grid">
+                        <div class="mr-float-left mr-addbox-handler" data-lib="b_V2"><i class="uk-icon-plus"></i> 添加</div>
+                        <div class="mr-float-left">
+                            <table class="gridtable sb sb_V2">
+                                <tr>
+                                    <td class="sb_V2_1"></td>
+                                    <td class="sb_V2_2"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="mr-grid">
+                        <div class="mr-float-left mr-addbox-handler" data-lib="b_V3"><i class="uk-icon-plus"></i> 添加</div>
+                        <div class="mr-float-left">
+                            <table class="gridtable sb sb_V3">
+                                <tr>
+                                    <td class="sb_V3_1"></td>
+                                    <td class="sb_V3_2"></td>
+                                    <td class="sb_V3_3"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="mr-grid">
+                        <div class="mr-float-left mr-addbox-handler" data-lib="b_V4"><i class="uk-icon-plus"></i> 添加</div>
+                        <div class="mr-float-left">
+                            <table class="gridtable sb sb_V4">
+                                <tr>
+                                    <td class="sb_V4_1"></td>
+                                    <td class="sb_V4_2"></td>
+                                    <td class="sb_V4_3"></td>
+                                    <td class="sb_V4_4"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function() {
+        /*var $b_H1_1 = $('td');
+        $b_H1_1.hover(function() {
+                $(this).css("background", "rgba(255,0,0,0.3)");
+            }, function() {
+                $(this).css("background", "rgba(255,255,255,0.3)");
+            })*/
+        // 
+        $(".mr-create-wardrobe").click(function() {
+            $(".mr-create-box").addClass("uk-animation-slide-right").addClass("mr-create-box-show");
+            $('body').css({
+                "overflow": "hidden",
+                "height": "100%"
+            })
+        })
+
+
+        var lib = {
+            'b_H1': '<table class="gridtable b_H1"><tr><td class="b_H1_1"></td></tr></table>',
+            'b_H2': '<table class="gridtable b_H2"><tr><td class="b_H2_1"></td><td class="b_H2_2"></td></tr></table>',
+            'b_H3': '<table class="gridtable b_H3"><tr><td class="b_H3_1"></td><td class="b_H3_2"></td><td class="b_H3_3"></td></tr></table>',
+            'b_H4': '<table class="gridtable b_H4"><tr><td class="b_H3_1"></td><td class="b_H3_2"></td><td class="b_H3_3"></td> </tr></table>',
+            'b_V1': '<table class="gridtable b-V1"><tr><td class="b_V1_1"></td></tr></table>',
+            'b_V2': '<table class="gridtable b_V2"><tr><td class="b_V2_1"></td><td class="b_V2_2"></td></tr></table>',
+            'b_V3': '<table class="gridtable b_V3"><tr><td class="b_V3_1"></td><td class="b_V3_2"></td><td class="b_V3_3"></td></tr></table>',
+            'b_V4': '<table class="gridtable b_V4"><tr><td class="b_V4_1"></td><td class="b_V4_2"></td><td class="b_V4_3"></td><td class="b_V4_4"></td></tr></table>'
+        }
+
+        var libBox = $('.mr-tips');
+        var libTar = $('.mr-grid');
+        var libs = [];
+        libTar.on('click',function(evt){
+            var $target = $(evt.target);
+            if($target.hasClass('mr-addbox-handler')){
+                if(libBox.find('.mr-msg').length>0){
+                    libBox.html('');
+                }
+                var ele = $(lib[$target.attr('data-lib')]);
+                libBox.append(ele);
+                libs.push($target.attr('data-lib'));
+            }
+            console.log(libs);
+        })
+        $('.mr-reset').on('click',function(){
+            libs = [];
+            libBox.html('<p class="mr-msg">点击右面的元素，自动添加格子哟 ^_^</p>')
+        })
+
+    })
+
+function laoban(jingli){
+  this.jinli = jinli;
+}
+laoban.prototype.wt = function(php){
+  this.jinli.wt(php);
+};
+
+function jinli(coder){
+  this.coder = coder;
+}
+jinli.prototype.wt = function(php){
+  this.coder.wt(php);
+};
+
+function coder(){
+  
+}
+laoban.prototype.wt = function(php){
+  console.log(php);
+};
+
+var wp = new laoban(new jinli());
+wp.wt('php');
+
+    </script>
+</body>
+
+</html>

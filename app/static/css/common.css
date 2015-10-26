@@ -1,0 +1,352 @@
+html {
+    font: normal 14px / 20px "Helvetica Neue", "微软雅黑", Helvetica, Arial, sans-serif;
+    min-height: 100%;
+}
+
+ul,
+li {
+    margin: 0;
+    ;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* 头部文件*/
+
+.d3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.mr-default-bottom {
+    margin-bottom: 25px;
+}
+
+.topbar {
+    padding: 20px 0 0;
+}
+
+.mr-center {
+    text-align: center;
+}
+.uk-text-white{
+    color: #FFF!important;
+}
+.mr-position-absolute{
+    position: absolute;
+}
+/* 颜色选择器 */
+
+#wheel-color {
+    padding-left: 35px;
+    width: 100%;
+}
+
+.minicolors-theme-default.minicolors {
+    width: 100%;
+    display: inline-block;
+}
+
+.mr-radio label {
+    padding: 2px 20px 2px 0;
+}
+
+.mr-radio label input {
+    margin: 4px;
+}
+
+.mr-form-uploadclose .uk-form-row {
+    margin: 20px 0;
+    line-height: 2em;
+}
+
+.mr-text-orange {
+    color: #e4354f;
+    font-weight: 700;
+}
+
+
+/* 底部文件*/
+
+.footer {
+    padding: 50px 0;
+}
+
+
+/* user management*/
+
+
+/* 用户衣服列表在展示 */
+
+.mr-season-select {
+    line-height: 80px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.mr-season-select:hover {
+    cursor: pointer;
+}
+
+.mr-spring {
+    border: 2px solid #A4C772;
+    color: #A4C772;
+    width: 80px;
+    height: 80px;
+    transition: all 0.2s ease-in;
+    border-top:0;
+}
+
+.mr-spring:hover {
+    background: #A4C772;
+    color: #FFF;
+}
+
+.mr-summer {
+    border: 2px solid #d4ffda;
+    color: #d4ffda;
+    width: 80px;
+    height: 80px
+}
+
+.mr-autumn {
+    border: 2px solid #d4ffda;
+    color: #d4ffda;
+    width: 80px;
+    height: 80px
+}
+
+.mr-winter {
+    border: 2px solid #d4ffda;
+    color: #d4ffda;
+    width: 80px;
+    height: 80px
+}
+
+.mr-season-select ul,
+.mr-season-select li {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+.mr-select-list {
+    display: none;
+    color: #CCC;
+}
+
+.mr-select-list li {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #ccc;
+    margin-top: 2px;
+}
+
+.mr-classi-title {
+    padding: 3px 9px 0 0;
+    width: 50px;
+}
+
+.uk-subnav-pill>.uk-active>* {
+    background: #da314b;
+}
+
+.mr-sidebar {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.mr-storage {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.mr-sidebar ul {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.mr-sidebar ul li {
+    min-height: 60px;
+    margin: 10px;
+    border: 1px dashed #eee;
+}
+
+.mr-savebtn {
+    display: block;
+    margin: 20px auto;
+}
+
+.mr-getmore {
+    width: 50%;
+}
+
+.uk-thumbnail {
+    position: relative;
+}
+
+.mr-sel-fix {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.mr-upbtn {
+    padding: 8px;
+    margin-top: 10px;
+}
+
+
+/* 假设 */
+.mr-dark{
+    background: #e5e5e5;
+    min-height: 100%;
+    height: 100%;
+}
+.mr-white{
+    background: #fff;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    -moz-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+}
+.mr-position-relative {
+    position: relative;
+}
+
+.mr-position-fix {
+    position: fixed;
+}
+
+.mr-container {
+    padding-left: 100px;
+}
+
+.mr-width-8 {
+    padding-right: 270px;
+}
+
+.mr-width-2 {
+    width: 250px;
+    float: right;
+    position: absolute;
+    right: 5px;
+    top: 0
+}
+.mr-upbtn {
+    margin: 20px 4px 0 0;
+}
+
+.mr-default-list a {
+    margin: 0 25px 25px 0;
+}
+
+.mr-default-list a {
+    float: left;
+}
+
+.mr-back-arr {
+    font-size: 28px;
+    top: 50px;
+    left: 30px;
+    color:#d85030!important;
+}
+/* 用户搭配 */
+.mr-color-default{
+    width: 100%;
+    height:100px;
+    background:orange;
+    opacity: 0.9;
+}
+.mr-left-bar{width: 100px;top:40px;}
+.mr-season{overflow: auto;}
+.mr-left-content{padding-left:100px}
+.mr-large-letter{font-size: 60px;line-height:50px;color:green;opacity: 0.3}
+.mr-dp-items{font-size: 14px;line-height: 1.8em;margin-top: 40px;width: 700px;float: left;margin-right: 40px;}
+.mr-h3{font-size: 14px;margin-bottom: 6px;font-weight: 700;}
+.mr-imgs{width: 300px;height:200px;overflow: hidden;position:relative;float: left;margin-right:40px;border-radius: 3px;}
+.mr-img-item{width:100px;height: 100px;overflow: hidden;float: left;}
+.mr-img-item img{width:100%;height: 100%;}
+.mr-color-default{width: 300px;height: 200px;position:absolute;left: 0;top:0;opacity:0.9}
+.mr-info{height: 200px;width:350px;}
+.mr-large-letter.summer{color:#FF0000}
+.mr-large-letter.autumn{color:#FF9500}
+.mr-large-letter.winter{color:#C400FA}
+
+/* 衣柜 */
+.mr-wardrobe-item{width: 334px;height:640px;float: left;margin: 20px 80px 50px 0;}
+.mr-wardrobe-box{position: absolute;width: 332px;border:1px solid #ccc;padding-bottom: 5px;overflow: auto;bottom: 40px;}
+.mr-wardrobe-type{margin-top:624px;}
+.mr-wardrobe-add{width:180px;margin-right: 0;}
+.mr-create-wardrobe{cursor:pointer;margin-top: 320px;}
+.mr-create-wardrobe:hover{color:#da314b;font-weight: 700;}
+table.gridtable{width:320px;margin: 5px auto 0;border:1px dashed #ccc;border-collapse: collapse;}
+table.gridtable td{border: 1px dashed #ccc;height: 80px;}
+table.gridtable td.b_V1_1 {border: 1px dashed #ccc;height: 240px;}
+table.b_H1{height:80px}
+table.b_H2 {height:80px}
+table.b_H3 {height:80px}
+table.b_H4 {height:80px}
+table.gridtable.b_V1{height:240px}
+table.b_V2 {height:240px}
+table.b_V3 {height:240px}
+table.b_V4 {height:240px}
+
+table.gridtable.sb{width:160px;margin: 5px auto 0;border:1px dashed #ccc;border-collapse: collapse;}
+table.gridtable.sb td{border: 1px dashed #ccc;height: 40px;}
+table.gridtable.sb td.sb_V1_1 {border: 1px dashed #ccc;height: 120px;}
+table.sb_H1{height:40px}
+table.sb_H2 {height:40px}
+table.sb_H3 {height:40px}
+table.sb_H4 {height:40px}
+table.gridtable.sb_V1{height:120px}
+table.sb_V2 {height:120px}
+table.sb_V3 {height:120px}
+table.sb_V4 {height:120px}
+
+
+.mr-create-box{
+    width:100%;
+    background:#FFF;
+    height: auto;
+    left:0;
+    top:0;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    position: relative;
+}
+.mr-wraper{
+    overflow: hidden;
+    margin:100px 40px 0 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.mr-create-box-show{
+    left: 5%;
+    padding-right: 5%;
+}
+.mr-closed-wardrobe{
+    font-size: 26px;
+    color:#da314b;
+    left: 16px; 
+    top:10px;
+}
+.width-1-3.mr-wardrobe-crete-box{margin: 0 0 60px 0;width: 344px;}
+.mr-wardrobe-crete-box .mr-wardrobe-box{
+    position: relative;
+    min-height: 90px;
+}
+.mr-grid-1000{width: 1000px;}
+.width-1-3{width:240px;float: left;margin: 0;margin-left:88px;padding: 0;}
+.mr-clear-position{bottom:0}
+.mr-grid{overflow: hidden;}
+.mr-tips{line-height:90px;font-size: 16px;}
+.mr-float-left{float: left;}
+.mr-addbox-handler{width:70px;line-height:50px;cursor: pointer;}
+.mr-addbox-handler:hover{color:#d85030!important;};
